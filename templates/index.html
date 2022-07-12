@@ -7,7 +7,7 @@
 
 
 {% block body %}
-<div class="content">
+<div class="content" style="background-image: url ({{url_for ('static', filename='image/dog1.jpg')}})">
     <h1 style="text-align: center">Task Master</h1>
     {% if tasks|length < 1%}
     <h4 style="text-align: center">There are no tasks. Create one below! </h4>

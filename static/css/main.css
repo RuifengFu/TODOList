@@ -1,8 +1,13 @@
-body, html {
+body, html{
     margin: 0;
     font-family: sans-serif;
     background-color: lightblue;
+    background-image: url('../image/bob.jpg');
+    background-position: center center;
+    background-size: contain; 
+    
 }
+
 
 .content {
     margin: 0 auto;
